@@ -8,55 +8,55 @@
             "name": "الكعبة المشرفة",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Ka%27ba%2C_Great_Mosque_of_Mecca%2C_Saudi_Arabia_%284%29.jpg/1280px-The_Ka%27ba%2C_Great_Mosque_of_Mecca%2C_Saudi_Arabia_%284%29.jpg",
             "info": "الكعبة المشرفة هي قبلة المسلمين في صلاتهم.",
-            "vrUrl": "https://www.google.com/maps/embed?pb=!4v1742572172965!6m8!1m7!1sCAoSLEFGMVFpcE5GMVVwOHFfS3pGSnpsWGhQYWRNbTd0dEtrSlVDSFVRUnRxeER6!2m2!1d21.42221427602634!2d39.82681691919431!3f321.58947106695126!4f-7.06748313909759!5f0.4000000000000002"
+            "vrUrl": "https://www.google.com/maps/embed?pb=!4v1742573237408!6m8!1m7!1sCAoSLEFGMVFpcE9LM3BEQjAyVU9GRVVLSGdVRUZFVzh6VTUydGs4Z0x2RUtXaE9J!2m2!1d21.42252387255567!2d39.82618163591551!3f221.23!4f-45.77!5f0.4000000000000002"
           }
         ]
       },
       {
         "name": "مصر",
-        "image": "assets/images/egypt.jpg",
+        "image": "https://cdn.alweb.com/thumbs/egyptencyclopedia/article/fit710x532/%D8%A3%D9%87%D8%B1%D8%A7%D9%85%D8%A7%D8%AA-%D9%85%D8%B5%D8%B1-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%87%D8%A7-%D9%85%D9%85%D9%8A%D8%B2%D8%A7%D8%AA%D9%87%D8%A7-%D9%88%D8%A3%D9%83%D8%AB%D8%B1.jpg",
         "landmarks": [
           {
             "name": "الأهرامات",
-            "image": "assets/images/pyramids.jpg",
+            "image": "https://cdn.alweb.com/thumbs/egyptencyclopedia/article/fit710x532/%D8%A3%D9%87%D8%B1%D8%A7%D9%85%D8%A7%D8%AA-%D9%85%D8%B5%D8%B1-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%87%D8%A7-%D9%85%D9%85%D9%8A%D8%B2%D8%A7%D8%AA%D9%87%D8%A7-%D9%88%D8%A3%D9%83%D8%AB%D8%B1.jpg",
             "info": "الأهرامات من أقدم عجائب الدنيا السبع.",
-            "vrUrl": "https://example.com/pyramids-360"
+            "vrUrl": "https://www.google.com/maps/embed?pb=!4v1742573589885!6m8!1m7!1sCAoSLEFGMVFpcFA0NkF5ckxta1RVekd1YWxlR1BXc0VLb1JfTXFDUDF0ZFZNQmF3!2m2!1d29.97572289137687!2d31.12777208735362!3f291.1957756897982!4f6.530818574287167!5f0.4000000000000002"
           }
         ]
       },
       {
         "name": "فرنسا",
-        "image": "assets/images/france.jpg",
+        "image": "https://goldenhorses-travel.com/wp-content/uploads/2024/03/%D9%86%D8%B5%D8%A7%D8%A6%D8%AD-%D9%84%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9-%D9%81%D9%8A-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D8%AE%D9%84%D8%A7%D9%84-%D9%81%D8%B5%D9%84-%D8%A7%D9%84%D8%B1%D8%A8%D9%8A%D8%B9.jpeg",
         "landmarks": [
           {
             "name": "برج إيفل",
-            "image": "assets/images/eiffel.jpg",
+            "image": "https://goldenhorses-travel.com/wp-content/uploads/2024/03/%D9%86%D8%B5%D8%A7%D8%A6%D8%AD-%D9%84%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9-%D9%81%D9%8A-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D8%AE%D9%84%D8%A7%D9%84-%D9%81%D8%B5%D9%84-%D8%A7%D9%84%D8%B1%D8%A8%D9%8A%D8%B9.jpeg",
             "info": "برج إيفل رمز باريس وأحد أشهر المعالم في العالم.",
-            "vrUrl": "https://example.com/eiffel-360"
+            "vrUrl": "https://www.google.com/maps/embed?pb=!4v1742573953647!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRDQzTXpiRGc.!2m2!1d48.85833618292306!2d2.294448059050633!3f231.96435705778583!4f1.201539987519837!5f0.7820865974627469"
           }
         ]
       },
       {
         "name": "الإمارات",
-        "image": "assets/images/dubai.jpg",
+        "image": "https://cdn.properties.emaar.com/wp-content/uploads/2024/08/Burj-Khalifa-1.jpg",
         "landmarks": [
           {
             "name": "برج خليفة",
-            "image": "assets/images/burj-khalifa.jpg",
+            "image": "https://cdn.properties.emaar.com/wp-content/uploads/2024/08/Burj-Khalifa-1.jpg",
             "info": "برج خليفة هو أعلى مبنى في العالم.",
-            "vrUrl": "https://example.com/burj-khalifa-360"
+            "vrUrl": "https://www.google.com/maps/embed?pb=!4v1742574162950!6m8!1m7!1sYj1OMRfHrN4a1D9CCpzRjw!2m2!1d25.1971821634794!2d55.27362005502263!3f18.170129025262!4f46.158717949818794!5f0.7820865974627469"
           }
         ]
       },
       {
         "name": "تركيا",
-        "image": "assets/images/turkey.jpg",
+        "image": "https://c.files.bbci.co.uk/9EEC/production/_113348604_gettyimages-1226227569.jpg",
         "landmarks": [
           {
             "name": "آيا صوفيا",
-            "image": "assets/images/ayasofya.jpg",
+            "image": "https://c.files.bbci.co.uk/9EEC/production/_113348604_gettyimages-1226227569.jpg",
             "info": "آيا صوفيا كانت كنيسة ثم مسجد ومن ثم متحف.",
-            "vrUrl": "https://example.com/ayasofya-360"
+            "vrUrl": "https://www.google.com/maps/embed?pb=!4v1742574535790!6m8!1m7!1sCAoSLEFGMVFpcE1XcTE5TTdqNFEyVzRDMlFCN2EyQkJDQTh5LWpnN0c1LVNsaGpL!2m2!1d41.00845115849879!2d28.98028267420424!3f295.9696140352081!4f69.42582625064298!5f0.7820865974627469"
           }
         ]
       }
