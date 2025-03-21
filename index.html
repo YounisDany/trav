@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سياحة افتراضية</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- الواجهة 1: الصفحة الرئيسية -->
+  <header id="heroSection" class="hero-section text-white text-center py-5 animated">
+    <div class="overlay"></div>
+    <h1 class="display-3 fw-bold">سياحة افتراضية</h1>
+    <p class="lead mb-4">اكتشف العالم من خلال جولاتنا السياحية الافتراضية المميزة!</p>
+    <button id="startTour" class="btn btn-light btn-lg shadow-lg">ابدأ جولتك الآن</button>
+  </header>
+
+  <!-- قائمة الدول -->
+  <main id="countriesList" class="container my-5 hidden">
+    <button id="backToHero" class="btn btn-secondary btn-sm mb-3"><i class="fas fa-arrow-left"></i> العودة</button>
+    <h2 class="text-center mb-5 display-5 fadeIn">اختر وجهتك:</h2>
+    <div class="row countries-container justify-content-center"></div>
+  </main>
+
+  <!-- الواجهة 2: معالم الدولة -->
+  <section id="landmarksSection" class="container my-5 hidden">
+    <button id="backToCountries" class="btn btn-secondary btn-sm mb-3"><i class="fas fa-arrow-left"></i> العودة</button>
+    <h2 class="text-center mb-5 display-5 fadeIn">معالم <span id="countryName"></span></h2>
+    <div class="row landmarks-container justify-content-center"></div>
+  </section>
+
+  <!-- الواجهة 3: جولة 360 -->
+  <section id="tourSection" class="container my-5 hidden">
+    <button id="backToLandmarks" class="btn btn-secondary btn-sm mb-3"><i class="fas fa-arrow-left"></i> العودة</button>
+    <h2 class="text-center mb-4 display-5 fadeIn">جولة 360 درجة في <span id="landmarkName"></span></h2>
+    <div id="vrViewer" class="mb-4"></div>
+    <p id="placeInfo" class="text-center lead fadeIn"></p>
+  </section>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="data.json"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+{
+    "countries": [
+      {
+        "name": "السعودية",
+        "image": "assets/images/saudi.jpg",
+        "landmarks": [
+          {
+            "name": "الكعبة المشرفة",
+            "image": "assets/images/kaaba.jpg",
+            "info": "الكعبة المشرفة هي قبلة المسلمين في صلاتهم.",
+            "vrUrl": "https://example.com/kaaba-360"
+          }
+        ]
+      },
+      {
+        "name": "مصر",
+        "image": "assets/images/egypt.jpg",
+        "landmarks": [
+          {
+            "name": "الأهرامات",
+            "image": "assets/images/pyramids.jpg",
+            "info": "الأهرامات من أقدم عجائب الدنيا السبع.",
+            "vrUrl": "https://example.com/pyramids-360"
+          }
+        ]
+      },
+      {
+        "name": "فرنسا",
+        "image": "assets/images/france.jpg",
+        "landmarks": [
+          {
+            "name": "برج إيفل",
+            "image": "assets/images/eiffel.jpg",
+            "info": "برج إيفل رمز باريس وأحد أشهر المعالم في العالم.",
+            "vrUrl": "https://example.com/eiffel-360"
+          }
+        ]
+      },
+      {
+        "name": "الإمارات",
+        "image": "assets/images/dubai.jpg",
+        "landmarks": [
+          {
+            "name": "برج خليفة",
+            "image": "assets/images/burj-khalifa.jpg",
+            "info": "برج خليفة هو أعلى مبنى في العالم.",
+            "vrUrl": "https://example.com/burj-khalifa-360"
+          }
+        ]
+      },
+      {
+        "name": "تركيا",
+        "image": "assets/images/turkey.jpg",
+        "landmarks": [
+          {
+            "name": "آيا صوفيا",
+            "image": "assets/images/ayasofya.jpg",
+            "info": "آيا صوفيا كانت كنيسة ثم مسجد ومن ثم متحف.",
+            "vrUrl": "https://example.com/ayasofya-360"
+          }
+        ]
+      }
+    ]
+  }

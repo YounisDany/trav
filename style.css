@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: 'Cairo', sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  .hero-section,
+  #countriesList,
+  #landmarksSection,
+  #tourSection {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Background Images */
+  .hero-section {
+    background-image: url('https://webook.com/blog/wp-content/uploads/2024/08/Tourist-Places-in-Saudi-Arabia-1.jpg');
+  }
+  
+  #countriesList {
+    background-image: url('https://skylifeholidays.com/wp-content/uploads/2024/07/%D8%AF%D8%A8%D9%8A.webp'); /* استبدل بالرابط الخاص بك */
+  }
+  
+  #landmarksSection {
+    background-image: url('https://example.com/landmarks-bg.jpg'); /* استبدل بالرابط الخاص بك */
+  }
+  
+  #tourSection {
+    background-image: url('https://example.com/vr-bg.jpg'); /* استبدل بالرابط الخاص بك */
+  }
+  
+  /* Overlay for Dark Background */
+  .hero-section::before,
+  #countriesList::before,
+  #landmarksSection::before,
+  #tourSection::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    filter: blur(5px); /* Blur effect */
+    z-index: 1; /* Ensure it's behind the content */
+  }
+  
+  /* Main Content */
+  .hero-section > *,
+  #countriesList > *,
+  #landmarksSection > *,
+  #tourSection > * {
+    position: relative;
+    z-index: 2; /* Ensure content is above the overlay */
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Buttons */
+  button {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Cards Design */
+  .countries-container .col, .landmarks-container .col {
+    margin-bottom: 20px;
+  }
+  
+  .country-card, .landmark-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .country-card img, .landmark-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.5s ease;
+  }
+  
+  .country-card h3, .landmark-card h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: center;
+    transition: background 0.3s ease;
+  }
+  
+  .country-card:hover img, .landmark-card:hover img {
+    transform: scale(1.1);
+  }
+  
+  .country-card:hover h3, .landmark-card:hover h3 {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* VR Viewer */
+  #vrViewer {
+    width: 100%;
+    height: 500px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Animation */
+  .animated {
+    animation: fadeInOut 1s ease-in-out;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
