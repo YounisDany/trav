@@ -2,13 +2,13 @@
     "countries": [
       {
         "name": "السعودية",
-        "image": "assets/images/saudi.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Ka%27ba%2C_Great_Mosque_of_Mecca%2C_Saudi_Arabia_%284%29.jpg/1280px-The_Ka%27ba%2C_Great_Mosque_of_Mecca%2C_Saudi_Arabia_%284%29.jpg",
         "landmarks": [
           {
             "name": "الكعبة المشرفة",
-            "image": "assets/images/kaaba.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Ka%27ba%2C_Great_Mosque_of_Mecca%2C_Saudi_Arabia_%284%29.jpg/1280px-The_Ka%27ba%2C_Great_Mosque_of_Mecca%2C_Saudi_Arabia_%284%29.jpg",
             "info": "الكعبة المشرفة هي قبلة المسلمين في صلاتهم.",
-            "vrUrl": "https://example.com/kaaba-360"
+            "vrUrl": "https://www.google.com/maps/embed?pb=!4v1742572172965!6m8!1m7!1sCAoSLEFGMVFpcE5GMVVwOHFfS3pGSnpsWGhQYWRNbTd0dEtrSlVDSFVRUnRxeER6!2m2!1d21.42221427602634!2d39.82681691919431!3f321.58947106695126!4f-7.06748313909759!5f0.4000000000000002"
           }
         ]
       },
